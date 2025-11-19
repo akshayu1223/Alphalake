@@ -1,22 +1,7 @@
-// const Admin = () => {
-//       return <div>Admin Page</div>;
-//     };
-
-//     export default Admin; // Add this line
-
-// import ImportUsers from "./ImportUsers";
-
-// const Admin = () => {
-//   return <ImportUsers />;
-// };
-
-// export default Admin;
 
 
-// 3rd
-
-import ImportUsers from "./ImportUsers";
-import UserManagement from "./UserManagement"; // You already created
+import ImportUsers from "./pages/ImportUsers/ImportUsers";
+import UserManagement from "./pages/User/User"; // You already created
 import { useState } from "react";
 
 const Admin = () => {
