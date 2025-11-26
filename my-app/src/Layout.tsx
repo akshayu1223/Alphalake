@@ -56,7 +56,7 @@
 // }
 
 import { useState } from "react";
-import Navbar from "./Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Sidebar from "./Sidebar";
 
 export default function Layout({ children }) {
