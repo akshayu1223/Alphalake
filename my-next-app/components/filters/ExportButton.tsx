@@ -1,0 +1,34 @@
+export default function ExportButton() {
+  return (
+    <button
+      className="
+        absolute
+        top-[38px]
+        left-[1252px]
+        w-[149px]
+        h-[45px]
+        bg-[#F2A35E]
+        rounded-[51.2px]
+        flex
+        items-center
+        justify-center
+        gap-[20px]
+        px-[30px]
+        py-[8.73px]
+      "
+    >
+      <span
+        className="
+          font-archivo
+          font-bold
+          text-[16.62px]
+          leading-none
+          tracking-[0.02em]
+          text-white
+        "
+      >
+        EXPORT
+      </span>
+    </button>
+  );
+}
